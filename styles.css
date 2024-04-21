@@ -4,7 +4,7 @@ body {
 }
 
 #thumbnail {
-	background-image: url("images/Prishtina_nga_Katedrala_1.jpg");
+	background-image: url("./images/Prishtina_nga_Katedrala_1.jpg");
 	background-size: cover;
 	height: 710px;
 }
