@@ -1,0 +1,103 @@
+body {
+	margin: 0px;
+	font-family: Ledger;
+}
+
+#thumbnail {
+	background-image: url("images/Prishtina_nga_Katedrala_1.jpg");
+	background-size: cover;
+	height: 710px;
+}
+
+#title {
+	font-size: 100px;
+
+}
+.subtext {
+	font-size: 20px;
+	color: #5CB0FF;
+}
+
+#smallest{
+	font-size: 12px;
+	color: #0b8db9;
+}
+
+#main-text {
+	color: #96CDFF;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+#title {
+	padding: 0px;
+	margin-bottom: 0px;
+	position: sticky;
+}
+
+#bottom-images {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: start;
+}
+
+.img-trio {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%; 
+	margin-top: 100px;
+}
+
+#downpage{
+	background: #A7CCED;
+	margin: 0px;
+	height: 750px;
+}
+
+#descriptors {
+	color: #304D6D;
+	font-size: 14px;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 30px 0px;
+
+}
+
+.descriptors-trio {
+	width: 300px;
+	text-align: center;
+}
+
+#me{
+	width: 200px;
+	height: 250px;
+	border: 2px solid #96CDFF;
+	border-radius: 50%;
+	margin: 40px;
+}
+
+#about-me{
+	border-top: 2px solid #5CB0FF;
+	background: #304D6D;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#about-me-text {
+	width: 500px;
+	color: white;
+}
+
+#extra-info {
+	text-align: center;
+	font-size: 50px;
+	color: #304D6D;
+}
+a {
+	color: #304D6D;
+}
+a:hover {
+	color: white;
+}
